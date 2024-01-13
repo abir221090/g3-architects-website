@@ -1,0 +1,64 @@
+*{
+    font-family: 'Work Sans', sans-serif;}
+
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding:50px 240px;
+}    
+
+.nav-title{
+color: #131313;
+font-size: 2.813rem;
+font-weight: 700;
+
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+nav> ul{
+    display:flex;
+    
+}
+nav li{
+list-style: none;
+color:#424242;
+font-family: Work Sans;
+font-size: 1.125rem;
+font-weight: 500;
+margin-right: 30px;
+}
+
+nav li>a{
+    text-decoration: none;
+    color:#424242;
+}
+/* banner styles */
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin:0 auto; 
+}
+
+.banner-title{
+color:#131313;
+font-size: 4rem;
+font-weight: 700;
+}
+.banner-description{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.butn-primary{
+color: #FFF;
+text-align: center;
+font-size: 1.25rem;
+font-weight: 600;
+border-radius: 8px;
+border:0px;
+background: #FF900E;
+width: 180px;
+height: 64px;
+}
