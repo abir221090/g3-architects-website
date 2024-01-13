@@ -124,6 +124,11 @@ font-weight: 700;
 
 /* facts section  */
 
+.facts{
+    margin-top: 130px;
+}
+
+
 .facts-card-container{
     display: flex;
     justify-content: space-around;
